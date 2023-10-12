@@ -1,0 +1,65 @@
+body{
+    margin-left: 10%;
+    padding: 0;
+}
+div{
+    border: 2px solid;
+}
+.box1{
+     width: 30%;
+     height: 170px;
+    float: left;
+    background-image: url('1.png');
+    background-size: 100% 100%;
+
+}
+.box3{
+     width: 30%;
+     height: 170px;
+    background-image: url('2.png');
+    background-size: 100% 100%;
+     float: left;
+}
+.box5{
+     width: 30%;
+     height: 170px;
+     background-image: url('3.png'); 
+     background-size: 100% 100%;
+     float: left;
+}
+.box2{
+    width: 60%;
+     height: 170px;
+     background-color: rgb(205, 21, 24);
+     float: left;
+}
+.box4{
+    width: 60%;
+     height: 170px;
+     background-color: rgb(21, 205, 88);
+     float: left;
+}
+.box6{
+    width: 60%;
+     height: 170px;
+     background-color: rgb(21, 30, 205);
+     float: left;
+}
+@media screen and (max-width:800px)
+{
+    .box1{
+        background-image: url('2.png');
+    }
+    .box3{
+        background-image: url('1.png');
+
+    }
+}
+@media screen and (max-width:600px){
+    .box5{
+        background-image: url('1.png');
+    }
+    .box3{
+        background-image: url('3.png');
+    }
+}
